@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
   * @ Modified By：
   */
 @SpringBootApplication
-class Application {}
+class Application
 
 object Main extends App{
   SpringApplication.run(classOf[Application])
