@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service
 @Service
 class WordCountService {
   @Autowired
-  private val sc:SparkContext = null
+  private var sc:SparkContext = _
 
   def getCount(wordList: List[String]):scala.collection.Map[String,Long] = {
     val words = sc.parallelize(wordList)
