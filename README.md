@@ -10,3 +10,6 @@ we can use post method to send the params like below.
 
 a **raster** service for .tiff data,the entry point at http://localhost:8080/raster
 ![image](https://github.com/120534/springboot-spark-scala/blob/master/request%26rasterinfo.png)
+
+a **ndvi** calculation service based on RasterFrame [RasterFrames](http://rasterframes.io/) at http://localhost:8080/png?name=L8-Elkton-VA
+![image](https://github.com/120534/springboot-spark-scala/blob/master/ndvi.png)

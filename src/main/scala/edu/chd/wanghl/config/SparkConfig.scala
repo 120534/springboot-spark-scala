@@ -33,7 +33,7 @@ class SparkConfig {
   }
 
   @Bean
-  def sc = new SparkContext(conf)
+  def sc = spark.sparkContext
 
   @Bean
   @ConditionalOnMissingBean
