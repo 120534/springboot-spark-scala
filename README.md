@@ -1,5 +1,5 @@
 ## SpringBoot-Spark-Scala  
-springboot deployed with spark, programming with scala  
+springboot deployed with spark, writing in scala  
 
 ### example  
 start the project: `mvn spring-boot:run`  
