@@ -3,7 +3,7 @@ springboot deployed with spark, writing in scala
 
 ### example  
 start the project: `mvn spring-boot:run`  
-a **wordcount** Http service will be started at http://localhost:8080/wordcount  
+a **wordcount** Http service will starte at http://localhost:8080/wordcount  
 we can use post method to send the params like below.
 ![image](https://github.com/120534/springboot-spark-scala/blob/master/request%26response.png)  
 
